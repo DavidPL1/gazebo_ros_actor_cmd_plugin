@@ -129,7 +129,7 @@ void ActorPluginRos::OnUpdate(const common::UpdateInfo &_info)
   // Make sure the actor stays within bounds
   pose.Pos().X(std::max(-10.0, std::min(20.0, pose.Pos().X())));
   pose.Pos().Y(std::max(-20.0, std::min(20.0, pose.Pos().Y())));
-  pose.Pos().Z(1.2138);
+  pose.Pos().Z(0.98);
 
   // Distance traveled is used to coordinate motion with the walking
   // animation
