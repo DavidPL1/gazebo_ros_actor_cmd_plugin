@@ -28,3 +28,10 @@ catkin_package(
     gazebo_ros 
     gazebo_plugins
 )
+
+install (
+  TARGETS ${PROJECT_NAME}
+  ARCHIVE DESTINATION lib
+  LIBRARY DESTINATION lib
+  RUNTIME DESTINATION bin
+)
